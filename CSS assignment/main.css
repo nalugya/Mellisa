@@ -1,0 +1,56 @@
+*{
+  body-sizing:border-box
+}
+
+body{
+  position: relative;
+}
+p{
+  color: black;
+}
+div{
+  text-align: center;
+  width: 35%;
+  height: 30vh;
+  display: inline-block;
+}
+a:hover{
+  color: white;
+}
+#biodata:hover{
+  background-color: black;
+}
+#ContactMe:hover{
+  background-color: pink;
+}
+#EducationHistory:hover{
+  background-color: grey;
+}
+#MyHobbies:hover{
+  background-color: orange;
+}
+#MyPhoto:hover{
+  background-color: cyan;
+}
+#biodata{
+  background-color: red;
+}
+#ContactMe{
+  background-color: blue;
+  right:0%;
+  position: absolute;
+}
+#EducationHistory{
+  background-color: violet;
+  margin-left: 35%;
+  width:30%;
+}
+#MyHobbies{
+  background-color: green;
+}
+#MyPhoto{
+  background-color: yellow;
+  position: absolute;
+  top:0%;
+  right:0%;
+}
